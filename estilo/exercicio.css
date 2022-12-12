@@ -1,0 +1,98 @@
+:root{
+	--cor-do-article:#D6C9C9;
+	--cor-do-header:#546A7B;
+}
+
+
+header{
+	background-color: var(--cor-do-header);
+	color: white;
+	border-radius: 20px;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: lightyellow;
+}
+
+.exercicio{
+	color: lightyellow;
+	text-decoration: underline;
+}
+
+
+body{
+	font-family: arial, helvetica, sans-serif;
+}	
+
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+
+.atividade{
+	   border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+}
+
+
+
+
+
+p{
+	text-align: left;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+img{
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.alternativa1{
+	margin-left: 10px;
+}
+
+article{
+	background-color: var(--cor-do-article);
+	border-radius: 20px;
+	margin-right: 900px;
+
+	text-align: center;
+}
+fieldset{
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 30px;
+	text-align: center;
+
+	
+} 
+
+input{
+	padding: 10px;
+	margin: 10px;
+}
